@@ -2,8 +2,6 @@
 
 Welcome to my personal portfolio! This is a responsive and interactive web app showcasing my projects, skills, and experiences as a developer.
 
-![Portfolio Screenshot](public/assets/projects/portfolio.png)
-
 ## 🚀 Features
 
 - 🎯 **Hero Section**: Brief intro
