@@ -114,15 +114,20 @@ export const myProjects = [
   },
   {
     id: 4,
-    title: "Social Media App(Under Development)",
+    title: "Nexutor AI LMS SaaS App",
     description:
-      "A social media application with user profiles, posts, and comments.",
+      "Nexutor is a LMS SaaS app with user authentication, subscriptions, payments, and real-time voice AI sessions using Next.js, Supabase, Clerk, Vapi, and Stripe.",
     subDescription: [
-      "Under development, this project aims to create a social media platform with features like user profiles, posts, and comments.",
+      "AI Voice Agents – Natural conversational AI for dynamic user interactions.",
+      "Secure Auth (Clerk) + Payments (Stripe) – Enterprise-grade security & seamless subscriptions.",
+      "Smart Learning Tools – Custom AI tutors, bookmarks & session history for personalized growth.",
+      "Modular Next.js Architecture – Scalable, reusable codebase with Supabase realtime DB.",
+      "Premium UI/UX – Responsive design with Tailwind/shacn-ui for flawless cross-device experiences.",
+      "Advanced Search & Filtering – Instant access to curated knowledge.",
     ],
-    href: "",
+    href: "https://ai-saas-lms.vercel.app/",
     logo: "",
-    image: "public/assets/projects/9u2px25j.png",
+    image: "public/assets/projects/nexutor.png",
     tags: [
       {
         id: 1,
@@ -131,19 +136,19 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
       },
       {
         id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
+        name: "Typescript",
+        path: "/assets/logos/TypeScript.svg",
       },
-      // {
-      //   id: 4,
-      //   name: "Microsoft",
-      //   path: "/assets/logos/microsoft.svg",
-      // },
+      {
+        id: 4,
+        name: "PostgreSQL",
+        path: "/assets/logos/PostgresSQL.svg",
+      },
     ],
   },
   {
@@ -308,25 +313,25 @@ export const reviews = [
   {
     name: "Yogesh",
     username: "@yogesh-gfg",
-    body: "TO BE FILLED",
+    body: "He has a quiet commitment to the team , approaching given task with a cooperative attitude. Balances coding and designing well.",
     img: "https://robohash.org/yogesh",
   },
-  {
-    name: "Tejaswini",
-    username: "@tejaswini",
-    body: "TO BE FILLED",
-    img: "https://robohash.org/tejaswini",
-  },
+  // {
+  //   name: "Tejaswini",
+  //   username: "@tejaswini",
+  //   body: "TO BE FILLED",
+  //   img: "https://robohash.org/tejaswini",
+  // },
   {
     name: "Tejasree",
     username: "@tejasree",
-    body: "He is incredibly talented  and always a pleasure to work with",
+    body: "He is incredibly talented  and always a pleasure to work with.",
     img: "https://robohash.org/tejasree",
   },
   {
     name: "Gaurav",
     username: "@gaurav-gfg",
-    body: "TO BE FILLED",
+    body: "He is a reliable and hardworking person.",
     img: "https://robohash.org/gaurav",
   },
 ];
