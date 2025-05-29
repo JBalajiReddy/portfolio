@@ -3,6 +3,7 @@ import Card from "../components/Card";
 import { Globe } from "../components/Globe";
 import CopyEmailButton from "../components/CopyEmailButton";
 import { Frameworks } from "../components/FrameWorks";
+import {resume} from "../constants";
 
 const About = () => {
   const grid2Container = useRef();
@@ -20,7 +21,7 @@ const About = () => {
             <p className="headtext">
               Hi, I'm Balaji Reddy {/* Resume Button */}
               <a
-                href="https://drive.google.com/file/d/1EPO2ZNwXOD1k9pnyWiUfzukJXaPh5Hd8/view?usp=sharing"
+                href={resume.href}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="z-10 px-2 py-1.5 mt-3 text-white transition-all duration-200 bg-indigo-600 rounded-lg hover:bg-indigo-500"
