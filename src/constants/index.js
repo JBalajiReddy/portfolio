@@ -316,12 +316,12 @@ export const reviews = [
     body: "He has a quiet commitment to the team , approaching given task with a cooperative attitude. Balances coding and designing well.",
     img: "https://robohash.org/yogesh",
   },
-  // {
-  //   name: "Tejaswini",
-  //   username: "@tejaswini",
-  //   body: "TO BE FILLED",
-  //   img: "https://robohash.org/tejaswini",
-  // },
+  {
+    name: "Chaitra",
+    username: "@chaitra",
+    body: "He brings a calm presence to the team, always contributing with thoughtfulness and intent. From planning features to refining user experience, his input always brings balance, insight, and a creative edge.",
+    img: "https://robohash.org/chaitra",
+  },
   {
     name: "Tejasree",
     username: "@tejasree",
@@ -335,3 +335,7 @@ export const reviews = [
     img: "https://robohash.org/gaurav",
   },
 ];
+
+export const resume = {
+  href: "https://drive.google.com/file/d/1hQn7zcii9Ma8rjs5LyO606crBUvtylAn/view?usp=sharing",
+};
