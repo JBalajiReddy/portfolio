@@ -127,7 +127,7 @@ export const myProjects = [
     ],
     href: "https://ai-saas-lms.vercel.app/",
     logo: "",
-    image: "public/assets/projects/nexutor.png",
+    image: "/assets/projects/nexutor.png",
     tags: [
       {
         id: 1,
@@ -167,7 +167,7 @@ export const myProjects = [
 
     href: "",
     logo: "",
-    image: "public/assets/projects/06mf1wy6.png",
+    image: "/assets/projects/06mf1wy6.png",
     tags: [
       {
         id: 1,
@@ -177,12 +177,12 @@ export const myProjects = [
       {
         id: 2,
         name: "Typescript",
-        path: "public/assets/logos/TypeScript.svg",
+        path: "/assets/logos/TypeScript.svg",
       },
       {
         id: 3,
         name: "MongoDB",
-        path: "public/assets/logos/MongoDB.svg",
+        path: "/assets/logos/MongoDB.svg",
       },
       {
         id: 4,
@@ -210,17 +210,17 @@ export const myProjects = [
       {
         id: 1,
         name: "React Native",
-        path: "public/assets/logos/reactnative.png",
+        path: "/assets/logos/reactnative.png",
       },
       {
         id: 2,
         name: "Appwrite",
-        path: "public/assets/logos/Appwrite.svg",
+        path: "/assets/logos/Appwrite.svg",
       },
       {
         id: 3,
         name: "Nativewind",
-        path: "public/assets/logos/llmrg0mo.png",
+        path: "/assets/logos/llmrg0mo.png",
       },
       // {
       //   id: 4,
