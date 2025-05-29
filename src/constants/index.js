@@ -337,5 +337,5 @@ export const reviews = [
 ];
 
 export const resume = {
-  href: "https://drive.google.com/file/d/1hQn7zcii9Ma8rjs5LyO606crBUvtylAn/view?usp=sharing",
+  href: "https://drive.google.com/file/d/1vo5Zbc6bYr2A__FUexypKDxLzVTH7X6r/view?usp=sharing",
 };
