@@ -52,5 +52,3 @@ npm install
 # 4. Start the development server
 npm run dev
 
-⚠️ Note: assets/ folder (images, logos, icons, etc.) is not included in the repository.
-You must manually add your images in public/assets/ and src/assets/ as required by the project structure.
