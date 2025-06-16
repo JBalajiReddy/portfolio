@@ -1,119 +1,49 @@
 export const myProjects = [
   {
     id: 1,
-    title: "Shortnest",
+    title: "Saylo - Real-time Chat & Language Exchange Platform",
     description:
-      "Smart and secure URL shortener with analytics, JWT auth, and full-stack deployment.",
+      "A modern, full-stack chat application that brings people together through real-time messaging, video calls, and immersive language exchange experiences. Built with cutting-edge technologies and designed for global communities.",
     subDescription: [
-      "Shortnest streamlines the process of URL shortening, making sharing links effortless and efficient. With its user-friendly interface, Shortnest allows you to generate concise, easy-to-share URLs in seconds. Simplify your sharing experience with Shortnest today.",
-      "Implemented secure authentication and database management using JWT authentication and PostgresSQL.",
-      "Designed a responsive frontend with React, Tailwind CSS, enhancing user experience.",
-      "Added a dashboard section to analyze the shortened url's.",
+      "Instant message delivery with typing indicators, emoji reactions and threaded conversations",
+      "Message status tracking (sent, delivered, read), rich media support",
+      "Crystal-clear 1-on-1 video calls, Screen sharing capabilities, Call recording functionality, Adaptive bitrate for optimal quality",
+      "Match with native speakers worldwide",
+      "32+ stunning UI themes representing different cultures",
+      "JWT-based authentication with refresh tokens, End-to-end message encryption",
+      "Rate limiting and spam protection, GDPR compliant data handling",
+      "Sub-100ms message delivery",
+      "Lazy loading and virtualized lists, Offline message queuing",
     ],
-    href: "https://shortnest-jbr.netlify.app/",
+    href: "https://saylo.onrender.com",
     logo: "",
-    image: "/assets/projects/Shortnest.png",
+    image: "/assets/projects/saylo-chat.png",
     tags: [
       {
         id: 1,
+        name: "MongoDB",
+        path: "/assets/logos/MongoDB.svg",
+      },
+      {
+        id: 2,
+        name: "Express",
+        path: "/assets/logos/express.svg",
+      },
+      {
+        id: 3,
         name: "React",
         path: "/assets/logos/react.svg",
       },
       {
-        id: 2,
-        name: "Spring",
-        path: "/assets/logos/Spring.svg",
-      },
-      {
-        id: 3,
-        name: "Docker",
-        path: "/assets/logos/Docker.svg",
-      },
-      {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "Node.js",
+        path: "/assets/logos/node-js.svg",
       },
     ],
   },
+
   {
     id: 2,
-    title: "NeuraReply - AI-Powered Email Reply Assistant",
-    description:
-      "NeuraReply is a Chrome extension to boost your email productivity!",
-    subDescription: [
-      "🚀 AI-Powered Replies: Generates professional email responses instantly.",
-      "🎨 Modern UI: Built with React for a smooth user experience.",
-      "🔗 Seamless Gmail Integration: Works directly within Gmail's compose window.",
-      "🛠 Spring Boot Backend: Handles AI processing and API requests efficiently.",
-      "☁ Google Gemini API: Ensures high-quality AI-generated replies.",
-    ],
-    href: "https://github.com/JBalajiReddy/Neural-4orce",
-    logo: "",
-    image: "/assets/projects/neura-reply.png",
-    tags: [
-      {
-        id: 1,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 2,
-        name: "Spring",
-        path: "/assets/logos/Spring.svg",
-      },
-      {
-        id: 3,
-        name: "JavaScript",
-        path: "/assets/logos/javascript.svg",
-      },
-      {
-        id: 4,
-        name: "Gemini",
-        path: "/assets/logos/gemini.png",
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: "Personal Portfolio(This Website)",
-    description:
-      "A personal portfolio website showcasing my projects and skills.",
-    subDescription: [
-      "Developed a fully interactive Single Page portfolio website using React and EmailJs.",
-      "Contains an interactive About section with a 3D rotating globe.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated EmailJS for seamless contact form submissions.",
-      "Implemented smooth scrolling and animations for a polished user experience.",
-    ],
-    href: "https://jbalajireddy.netlify.app/",
-    logo: "",
-    image: "/assets/projects/portfolio.png",
-    tags: [
-      {
-        id: 1,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 2,
-        name: "JavaScript",
-        path: "/assets/logos/javascript.svg",
-      },
-      {
-        id: 3,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-      {
-        id: 4,
-        name: "Vite",
-        path: "/assets/logos/vitejs.svg",
-      },
-    ],
-  },
-  {
-    id: 4,
     title: "Nexutor AI LMS SaaS App",
     description:
       "Nexutor is a LMS SaaS app with user authentication, subscriptions, payments, and real-time voice AI sessions using Next.js, Supabase, Clerk, Vapi, and Stripe.",
@@ -151,8 +81,125 @@ export const myProjects = [
       },
     ],
   },
+
+  {
+    id: 3,
+    title: "Shortnest",
+    description:
+      "Smart and secure URL shortener with analytics, JWT auth, and full-stack deployment.",
+    subDescription: [
+      "Shortnest streamlines the process of URL shortening, making sharing links effortless and efficient. With its user-friendly interface, Shortnest allows you to generate concise, easy-to-share URLs in seconds. Simplify your sharing experience with Shortnest today.",
+      "Implemented secure authentication and database management using JWT authentication and PostgresSQL.",
+      "Designed a responsive frontend with React, Tailwind CSS, enhancing user experience.",
+      "Added a dashboard section to analyze the shortened url's.",
+    ],
+    href: "https://shortnest-jbr.netlify.app/",
+    logo: "",
+    image: "/assets/projects/Shortnest.png",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "Spring",
+        path: "/assets/logos/Spring.svg",
+      },
+      {
+        id: 3,
+        name: "Docker",
+        path: "/assets/logos/Docker.svg",
+      },
+      {
+        id: 4,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+    ],
+  },
+
+  {
+    id: 4,
+    title: "NeuraReply - AI-Powered Email Reply Assistant",
+    description:
+      "NeuraReply is a Chrome extension to boost your email productivity!",
+    subDescription: [
+      "🚀 AI-Powered Replies: Generates professional email responses instantly.",
+      "🎨 Modern UI: Built with React for a smooth user experience.",
+      "🔗 Seamless Gmail Integration: Works directly within Gmail's compose window.",
+      "🛠 Spring Boot Backend: Handles AI processing and API requests efficiently.",
+      "☁ Google Gemini API: Ensures high-quality AI-generated replies.",
+    ],
+    href: "https://github.com/JBalajiReddy/Neural-4orce",
+    logo: "",
+    image: "/assets/projects/neura-reply.png",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "Spring",
+        path: "/assets/logos/Spring.svg",
+      },
+      {
+        id: 3,
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
+      },
+      {
+        id: 4,
+        name: "Gemini",
+        path: "/assets/logos/gemini.png",
+      },
+    ],
+  },
+
   {
     id: 5,
+    title: "Personal Portfolio(This Website)",
+    description:
+      "A personal portfolio website showcasing my projects and skills.",
+    subDescription: [
+      "Developed a fully interactive Single Page portfolio website using React and EmailJs.",
+      "Contains an interactive About section with a 3D rotating globe.",
+      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
+      "Integrated EmailJS for seamless contact form submissions.",
+      "Implemented smooth scrolling and animations for a polished user experience.",
+    ],
+    href: "https://jbalajireddy.netlify.app/",
+    logo: "",
+    image: "/assets/projects/portfolio.png",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
+      },
+      {
+        id: 3,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 4,
+        name: "Vite",
+        path: "/assets/logos/vitejs.svg",
+      },
+    ],
+  },
+
+  {
+    id: 6,
     title: "AI SaaS App(Under Development)",
     description:
       "Build an AI image SaaS platform that excels in image processing capabilities, integrates a secure payment infrastructure, offers advanced image search functionalities, and supports multiple AI features",
@@ -191,8 +238,9 @@ export const myProjects = [
       },
     ],
   },
+
   {
-    id: 6,
+    id: 7,
     title: "AI-generated Video Sharing App(Under Development)",
     description:
       "A dynamic video-sharing mobile app built with React Native, featuring smooth navigation, media uploads, and real-time search for a seamless social experience.",
@@ -283,7 +331,7 @@ export const experiences = [
       "Skills: React.js · Django · PostgreSQL · Python (Programming Language) · JavaScript · Tailwind CSS · HTML5 · Cascading Style Sheets (CSS) · Git",
     ],
   },
-  
+
 ];
 export const reviews = [
   {

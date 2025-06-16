@@ -3,10 +3,14 @@ import Card from "../components/Card";
 import { Globe } from "../components/Globe";
 import CopyEmailButton from "../components/CopyEmailButton";
 import { Frameworks } from "../components/FrameWorks";
-import {resume} from "../constants";
+import {mySocials, resume} from "../constants";
 
 const About = () => {
   const grid2Container = useRef();
+  const resumeLink = resume.href;
+  const githubLink = mySocials.find(social => social.name === 'GitHub')?.href;
+
+  
   return (
     <section className="c-space section-spacing" id="about">
       <h2 className="text-heading">About Me</h2>
@@ -20,14 +24,24 @@ const About = () => {
           <div className="z-10">
             <p className="headtext">
               Hi, I'm Balaji Reddy {/* Resume Button */}
-              <a
-                href={resume.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="z-10 px-2 py-1.5 mt-3 text-white transition-all duration-200 bg-indigo-600 rounded-lg hover:bg-indigo-500"
-              >
-                Resume
-              </a>
+              <div className="flex items-center gap-2">
+                <a
+                  href={resumeLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="z-10 px-2 py-1.5 mt-3 text-white transition-all duration-200 bg-indigo-600 rounded-lg hover:bg-indigo-500"
+                >
+                  Resume
+                </a>
+                <a
+                  href={githubLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="z-10 px-2 py-1.5 mt-3 text-white transition-all duration-200 bg-indigo-600 rounded-lg hover:bg-indigo-500"
+                >
+                  Github
+                </a>
+              </div>
             </p>
             <p className="subtext">
               Over the past years, I developed my frontend and backend dev
