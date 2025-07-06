@@ -1,36 +1,40 @@
 import { useState } from "react";
 import { motion } from "motion/react";
+
 function Navigation() {
   return (
-    <ul className="nav-ul">
-      <li className="nav-li">
-        <a className="nav-link" href="#home">
-          Home
-        </a>
-      </li>
-      <li className="nav-li">
-        <a className="nav-link" href="#about">
-          About
-        </a>
-      </li>
-      <li className="nav-li">
-        <a className="nav-link" href="#projects">
-          Projects
-        </a>
-      </li>
-      <li className="nav-li">
-        <a className="nav-link" href="#work">
-          Work
-        </a>
-      </li>
-      <li className="nav-li">
-        <a className="nav-link" href="#contact">
-          Contact
-        </a>
-      </li>
-    </ul>
+    <div className="flex items-center justify-between space-x-6">
+      <ul className="nav-ul">
+        <li className="nav-li">
+          <a className="nav-link" href="#home">
+            Home
+          </a>
+        </li>
+        <li className="nav-li">
+          <a className="nav-link" href="#about">
+            About
+          </a>
+        </li>
+        <li className="nav-li">
+          <a className="nav-link" href="#projects">
+            Projects
+          </a>
+        </li>
+        <li className="nav-li">
+          <a className="nav-link" href="#work">
+            Work
+          </a>
+        </li>
+        <li className="nav-li">
+          <a className="nav-link" href="#contact">
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
   );
 }
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
